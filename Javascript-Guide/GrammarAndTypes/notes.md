@@ -75,14 +75,13 @@ myObject.key = 6;
 #### Data Types 
 
 The latest ECMAScript standard defines seven data types: 
-six data types are primitives: 
+six data types are primitives, and the last, Object, is not: 
 * Boolean 
 * null 
 * undfined 
 * Number 
 * String 
 * Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable 
-Plus: 
 * Object 
 
 #### Type Conversion 
