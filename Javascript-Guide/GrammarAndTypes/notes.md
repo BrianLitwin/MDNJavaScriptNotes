@@ -90,3 +90,14 @@ six data types are primitives, and the last, Object, is not:
 
 If an array is created using a literal in a top-level script, JavaScript interprets the array each time it evaluates the expression containing the array literal. In addition, a literal used in a function is created each time the function is called.
 
+#### Boolean Types 
+
+The Boolean type has two literal values: true and false.
+
+Do not confuse the primitive Boolean values true and false with the true and false values of the Boolean object. The Boolean object is a wrapper around the primitive Boolean data type. 
+
+#### String Literals 
+
+You can call any of the methods of the String object on a string literal value—JavaScript automatically converts the string literal to a temporary String object, calls the method, then discards the temporary String object. You can also use the String.length property with a string literal
+
+You should use string literals unless you specifically need to use a String object.
