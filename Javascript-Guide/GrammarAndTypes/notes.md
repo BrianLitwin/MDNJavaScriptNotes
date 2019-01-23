@@ -30,8 +30,8 @@ var b;
 var c; // is undefined 
 console.log(c + 2) // evaluated to NaN 
 ```
-a variable declared useding `var` within a block is local to the function (or global scope) that the block resides within
-`let` variables is local to the block in which it is defined
+a variable declared useding `var` within a block is local to the function (or global scope) that the block resides within. A
+`let` variable is local to the block in which it is defined
 
 
 ```
