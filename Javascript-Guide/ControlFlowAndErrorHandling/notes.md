@@ -1,4 +1,4 @@
-##### Falsty values
+##### Falsy values
 The following values evaluate to false: 
 * false
 * undefined 
