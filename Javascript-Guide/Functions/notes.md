@@ -3,7 +3,7 @@
 Primitive parameters (such as a number) are passed to functions by value; the value is passed to the function, but if the function changes the value of the parameter, this change is not reflected globally or in the calling function.
 
 
-```
+```javascript 
 var a = 1; 
 
 function update(a) {
@@ -31,7 +31,7 @@ prints 1, 2, 3, 2, 1
 
 objects are passed by reference when passed in function parameters: 
 
-```
+```javascript
 var car = { color: "blue" }
 
 function update(car) {
@@ -45,7 +45,7 @@ update(car)
 console.log(car)
 ```
 
-```
+```javascript
 var a = 1 
 var b = a 
 var a = 2 
@@ -62,21 +62,21 @@ console.log(a, b)
 
 While the function declaration above is syntactically a statement, functions can also be created by a function expression. Such a function can be anonymous; it does not have to have a name. For example, the function square could have been defined as:
 
-```
+```javascript
 var square = function(number) { return number * number; };
 var x = square(4); // x gets the value 16
 ```
 
 However, a name can be provided with a function expression and can be used inside the function to refer to itself, or in a debugger to identify the function in stack traces:
 
-```
+```javascript
 var factorial = function fac(n) { return n < 2 ? 1 : n * fac(n - 1); };
 console.log(factorial(3));
 ```
 
 write the map function 
 
-```
+```javascript
 function map(f, array) {
     var returnArray = []; 
     for (var i = 0; i < array.length; i++) {
@@ -98,7 +98,7 @@ console.log(arraySquared)
 
 In JavaScript, a function can be defined based on a condition. For example, the following function definition defines myFunc only if num equals 0:
 
-```
+```javascript
 var myFunc;
 if (num === 0) {
     myFunc = function(theObject) {
@@ -117,7 +117,7 @@ function square(n) { return n * n; }
 
 function hoisting only works with function declaration and not with function expression.
 
-```
+```javascript
 function foo(i) {
     if (i < 0)
         return;
