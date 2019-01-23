@@ -211,4 +211,37 @@ pet.getName();                  // Oliver
 
 ```
 
+There are, however, a number of pitfalls to watch out for when using closures. If an enclosed function defines a variable with the same name as the name of a variable in the outer scope, there is no way to refer to the variable in the outer scope again
 
+#### Using the arguments object 
+
+The arguments of a function are maintained in an array-like object. Within a function, you can address the arguments passed to it as follows:
+
+arguments[i]
+where i is the ordinal number of the argument, starting at zero. So, the first argument passed to a function would be arguments[0]. The total number of arguments is indicated by arguments.length.
+
+Using the arguments object, you can call a function with more arguments than it is formally declared to accept. This is often useful if you don't know in advance how many arguments will be passed to the function. You can use arguments.length to determine the number of arguments actually passed to the function, and then access each argument using the arguments object.
+
+For example, consider a function that concatenates several strings. The only formal argument for the function is a string that specifies the characters that separate the items to concatenate. The function is defined as follows:
+```javascript 
+function myConcat(separator) {
+   var result = ''; // initialize list
+   var i;
+   // iterate through arguments
+   for (i = 1; i < arguments.length; i++) {
+      result += arguments[i] + separator;
+   }
+   return result;
+}
+```
+You can pass any number of arguments to this function, and it concatenates each argument into a string "list":
+```javascript
+// returns "red, orange, blue, "
+myConcat(', ', 'red', 'orange', 'blue');
+
+// returns "elephant; giraffe; lion; cheetah; "
+myConcat('; ', 'elephant', 'giraffe', 'lion', 'cheetah');
+
+// returns "sage. basil. oregano. pepper. parsley. "
+myConcat('. ', 'sage', 'basil', 'oregano', 'pepper', 'parsley');
+```
