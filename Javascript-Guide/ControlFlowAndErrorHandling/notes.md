@@ -94,6 +94,7 @@ The finally block contains statements to execute after the try and catch blocks 
 If the finally block returns a value, this value becomes the return value of the entire try-catch-finally production, regardless of any return statements in the try and catch blocks:
 
 ```javascript 
+
 function f() {
 try {
 console.log(0);
