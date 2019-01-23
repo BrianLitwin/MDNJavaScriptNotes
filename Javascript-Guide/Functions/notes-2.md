@@ -1,6 +1,6 @@
 #### Function Declarations
 
-A function has three parts: it's name, paramters, and block statement. Its preceded by the `function` keyword 
+A function has three parts: it's name, parameters, and block statement. Its preceded by the `function` keyword 
 
 Primitive parameters are passed to functions by value; non-primitizes (objects, arrays) are passed by reference. 
 
