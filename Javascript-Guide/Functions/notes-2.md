@@ -288,7 +288,7 @@ console.log(a3); // logs [8, 6, 7, 9]
 ```
 No separate thisSection
 Until arrow functions, every new function defined its own this value (a new object in the case of a constructor, undefined in strict mode function calls, the base object if the function is called as an "object method", etc.). This proved to be less than ideal with an object-oriented style of programming.
-```
+```javascript 
 function Person() {
   // The Person() constructor defines `this` as itself.
   this.age = 0;
