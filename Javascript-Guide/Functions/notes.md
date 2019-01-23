@@ -154,3 +154,5 @@ result = fn_inside(5); // returns 8
 result1 = outside(3)(5); // returns 8
 ```
 
+Question: write a function that returns a function that adds a number x to w/e num you give it 
+
