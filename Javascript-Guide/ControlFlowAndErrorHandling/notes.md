@@ -169,10 +169,10 @@ console.log(e.message); // logs 'The message' or a JavaScript error message)
 
 A Promise is in one of these states:
 
-pending: initial state, not fulfilled or rejected.
-fulfilled: successful operation
-rejected: failed operation.
-settled: the Promise is either fulfilled or rejected, but not pending.
+1) pending: initial state, not fulfilled or rejected.
+2) fulfilled: successful operation
+3) rejected: failed operation.
+4) settled: the Promise is either fulfilled or rejected, but not pending.
 
 
 Exercise: 
