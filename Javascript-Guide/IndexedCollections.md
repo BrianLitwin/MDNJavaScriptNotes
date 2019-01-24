@@ -107,5 +107,6 @@ Array.prototype.forEach.call('a string', function(chr) {
 ## Questions 
 
 Name the array methods and what they do, with an example 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 
