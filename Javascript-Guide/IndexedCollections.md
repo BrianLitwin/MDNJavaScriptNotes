@@ -81,28 +81,6 @@ array.forEach(function(element) {
 Since JavaScript elements are saved as standard object properties, it is not advisable to iterate through JavaScript arrays using 
 for...in loops because normal elements and all enumerable properties will be listed.
 
-#### Array Methods 
-
-* concat() 
-* join(delimiter=', ')
-* push() 
-* pop() 
-* shift() 
-* unshift() 
-* slice 
-* splice 
-* reverse() 
-* sort()
-* indexOf()
-* lastIndexOf()
-* forEach()
-* map()
-* filter()
-* every()
-* some()
-* reduce()
-* reduceRight()
-
 
 #### Arrays and Regular Expressions
 When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of RegExp.exec(), String.match(), and String.split(). For information on using arrays with regular expressions, see Regular Expressions.
@@ -125,4 +103,9 @@ Array.prototype.forEach.call('a string', function(chr) {
   console.log(chr);
 });
 ```
+
+## Questions 
+
+Name the array methods and what they do, with an example 
+
 
