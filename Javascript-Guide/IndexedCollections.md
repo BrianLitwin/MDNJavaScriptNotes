@@ -83,4 +83,46 @@ for...in loops because normal elements and all enumerable properties will be lis
 
 #### Array Methods 
 
+concat() 
+join(delimiter=', ')
+push() 
+pop() 
+shift() 
+unshift() 
+slice 
+splice 
+reverse() 
+sort()
+indexOf()
+lastIndexOf()
+forEach()
+map()
+filter()
+every()
+some()
+reduce()
+reduceRight()
+
+
+#### Arrays and Regular Expressions
+When an array is the result of a match between a regular expression and a string, the array returns properties and elements that provide information about the match. An array is the return value of RegExp.exec(), String.match(), and String.split(). For information on using arrays with regular expressions, see Regular Expressions.
+
+#### Working with Array-like objects 
+
+Some JavaScript objects, such as the NodeList returned by document.getElementsByTagName() or the arguments object made available within the body of a function, look and behave like arrays on the surface but do not share all of their methods. The arguments object provides a length attribute but does not implement the forEach() method, for example.
+
+Array prototype methods can be called against other array-like objects. for example:
+```javascript 
+function printArguments() {
+  Array.prototype.forEach.call(arguments, function(item) {
+    console.log(item);
+  });
+}
+```
+Array prototype methods can be used on strings as well, since they provide sequential access to their characters in a similar way to arrays:
+```javascript 
+Array.prototype.forEach.call('a string', function(chr) {
+  console.log(chr);
+});
+```
 
