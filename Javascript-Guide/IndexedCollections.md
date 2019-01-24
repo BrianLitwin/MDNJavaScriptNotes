@@ -83,25 +83,25 @@ for...in loops because normal elements and all enumerable properties will be lis
 
 #### Array Methods 
 
-concat() 
-join(delimiter=', ')
-push() 
-pop() 
-shift() 
-unshift() 
-slice 
-splice 
-reverse() 
-sort()
-indexOf()
-lastIndexOf()
-forEach()
-map()
-filter()
-every()
-some()
-reduce()
-reduceRight()
+* concat() 
+* join(delimiter=', ')
+* push() 
+* pop() 
+* shift() 
+* unshift() 
+* slice 
+* splice 
+* reverse() 
+* sort()
+* indexOf()
+* lastIndexOf()
+* forEach()
+* map()
+* filter()
+* every()
+* some()
+* reduce()
+* reduceRight()
 
 
 #### Arrays and Regular Expressions
