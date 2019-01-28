@@ -6,7 +6,7 @@ it is a markup language used to tell your browser how to structure the web pages
 HTML consists of a series of elements, which you use to enclose, wrap, or mark up different 
 parts of the content to make it appear or act a certain way. 
 
-The main parts of our element are:
+The main parts of an element are:
 
 1) The opening tag: This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. 
 This states where the element begins or starts to take effect — in this case where the start of the paragraph is.
@@ -53,4 +53,14 @@ declarations, and more
 and is used to describe the page when you bookmark/favorite it.
 * `<body></body>` This contains all the content that you want to show to web users when they visit your page, whether that's text,
 images, videos, games, playable audio tracks, or whatever else.
+
+
+Questions: 
+What is HTML? 
+it is a markup language used to tell your browser how to structure the web pages you visit
+
+HTML consists of... 
+HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way.
+
+
 
