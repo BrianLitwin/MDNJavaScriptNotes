@@ -62,5 +62,15 @@ it is a markup language used to tell your browser how to structure the web pages
 HTML consists of... 
 HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of the content to make it appear or act a certain way.
 
+The main parts of an element are? 
+
+Explain block-line and inline elements
+
+Explain what an attribute is and what it should have 
+
+What is a boolean attribute 
+
+
+
 
 
